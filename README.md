@@ -1,3 +1,9 @@
+#### Project 4 Test File
+
+Added the test_twitter.py file to successfully run the possible hastags. Added actions file to CI.
+
+
+
 ### Twitter-Feed-Analyzer
 Utilize both Twitter API and Google NLP API to create a program to analyze the sentiments of a tweet.
 
