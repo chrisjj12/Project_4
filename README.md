@@ -1,6 +1,6 @@
 #### Project 4 Test File
 
-Added the test_twitter.py file to successfully run the possible hastags. Added actions file to CI.
+Added the test_twitter.py file to successfully run the possible hastags. Added actions file to CI. The program will not be able to complete CI because keys are not added into the keys.py to prevent security breaches.
 
 
 
