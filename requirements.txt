@@ -1,1 +1,4 @@
-tweepy==3.8.0
+tweepy==3.9.0
+google-api-core==1.23.0
+google-auth==1.23.0
+google-cloud-language==2.0.0
