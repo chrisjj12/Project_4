@@ -3,7 +3,6 @@
 Added the test_twitter.py file to successfully run the possible hastags. Added actions file to CI. The program will not be able to complete CI because keys are not added into the keys.py to prevent security breaches.
 
 
-
 ### Twitter-Feed-Analyzer
 Utilize both Twitter API and Google NLP API to create a program to analyze the sentiments of a tweet.
 
