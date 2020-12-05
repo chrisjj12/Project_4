@@ -6,12 +6,7 @@ from google.cloud.language import enums
 from google.cloud.language import types
 import argparse
 
-def error_check():
-    try: #error checking hashtag
-        hashtags = request.form["userid"]
-        return hashtags
-    except:
-        error = 'Invalid credentials'
+
 
 def choose_hashtag(hashtags):
     auth = tweepy.OAuthHandler(keys.consumer_key, keys.consumer_secret)
