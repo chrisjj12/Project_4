@@ -59,6 +59,5 @@ if __name__ == "__main__":
     for i in range(int(args.num_tweets)):
         print("Tweet {}".format(i))
         print(tweets[i].text)
-        analyze(tweets[i].text) 
-    
+        int(analyze(tweets[i].text))
     
