@@ -24,7 +24,7 @@ def print_result(annotations):
     print(
         "Overall Sentiment: score of {} with magnitude of {} for this hashtag".format(score, magnitude)
     )
-    return 0
+    return score
 
 def analyze(tweet): 
     """Run a sentiment analysis request on text within a passed filename."""
