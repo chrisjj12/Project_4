@@ -18,7 +18,7 @@ def choose_hashtag(hashtags):
     return public_tweets
 
 def print_result(annotations):
-    score = annotations.document_sentiment.score
+    score = int(annotations.document_sentiment.score)
     magnitude = annotations.document_sentiment.magnitude
 
     print(
