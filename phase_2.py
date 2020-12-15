@@ -55,9 +55,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     tweets = choose_hashtag(args.twitter_hashtag)
-
+s
     for i in range(int(args.num_tweets)):
         print("Tweet {}".format(i))
         print(tweets[i].text)
-        int(analyze(tweets[i].text))
+        analyze(tweets[i].text)
     
