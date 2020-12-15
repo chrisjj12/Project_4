@@ -30,7 +30,7 @@ def analyze(tweet):
     """Run a sentiment analysis request on text within a passed filename."""
     client = language.LanguageServiceClient()
 
-    document = types.Document(content=tweet, type=enums.Document.Type.PLAIN_TEXT)
+    document = int(types.Document(content=tweet, type=enums.Document.Type.PLAIN_TEXT))
     annotations = client.analyze_sentiment(document=document)
 
     # Print the results
@@ -59,5 +59,5 @@ s
     for i in range(int(args.num_tweets)):
         print("Tweet {}".format(i))
         print(tweets[i].text)
-        analyze(tweets[i].text)
+        int(analyze(tweets[i].text))
     
